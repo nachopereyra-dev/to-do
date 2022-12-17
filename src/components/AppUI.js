@@ -30,7 +30,7 @@ function AppUI() {
 
             { error && <p>Hubo un error</p>}
             { loading && <p>Cargando...</p>}
-            { (!loading && listaDeItembuscados) && <p>Crea tu primer tarea</p>}
+            { (!loading && listaDeItembuscados) && <p>Crea y gestiona tus tareas</p>}
 
             {listaDeItembuscados.map((tarea,i) => {
               return ( 
